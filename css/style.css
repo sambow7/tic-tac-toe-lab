@@ -22,17 +22,19 @@ body {
 
 h1 {
   text-align: center;
+  margin: auto;
 }
 
 h2 {
   text-align: center;
+  margin: auto;
 }
-button {
+
+#reset {
   color: rgb(187, 10, 10);
   background-color: darkgreen;
   display: flex;
   border-radius: 15px 50px;
   margin: auto;
-  
 
 }
