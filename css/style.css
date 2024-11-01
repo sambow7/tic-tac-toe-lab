@@ -1,5 +1,5 @@
 body {
-  background-color: gainsboro;
+  background-color: rgb(10, 137, 14);
   /* Use a system font, if none are available use an available sans-sarif */
   font-family: system-ui, sans-serif;
   margin: 0;
@@ -9,12 +9,30 @@ body {
   display: flex;
   flex-wrap: wrap;
   width: 325px;
+  margin: auto;
 }
 
 .sqr {
   width: 30%;
   aspect-ratio: 1/1;
-  border: 3px solid black;
+  border: 3px solid rgb(187, 10, 10);
   font-size: 64px;
   text-align: center;
+}
+
+h1 {
+  text-align: center;
+}
+
+h2 {
+  text-align: center;
+}
+button {
+  color: rgb(187, 10, 10);
+  background-color: darkgreen;
+  display: flex;
+  border-radius: 15px 50px;
+  margin: auto;
+  
+
 }
