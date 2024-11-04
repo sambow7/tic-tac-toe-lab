@@ -10,6 +10,8 @@ body {
   flex-wrap: wrap;
   width: 325px;
   margin: auto;
+  cursor: pointer;
+  
 }
 
 .sqr {
@@ -18,23 +20,36 @@ body {
   border: 3px solid rgb(187, 10, 10);
   font-size: 64px;
   text-align: center;
+  background-image: linear-gradient(
+    to top left,
+    rgba(0, 0, 0, 0.2),
+    rgba(0, 0, 0, 0.2) 30%,
+    rgba(0, 0, 0, 0)
+  );
+  box-shadow:
+    inset 2px 2px 3px rgba(255, 255, 255, 0.6),
+    inset -2px -2px 3px rgba(0, 0, 0, 0.6);
 }
 
+.sqr:hover {
+  background-color: red;
+}
 h1 {
   text-align: center;
-  margin: auto;
+  margin-top: auto;
 }
 
 h2 {
   text-align: center;
-  margin: auto;
+  margin-top: auto;
 }
 
 #reset {
   color: rgb(187, 10, 10);
   background-color: darkgreen;
   display: flex;
-  border-radius: 15px 50px;
-  margin: auto;
+  border-radius: 50px 50px;
+  margin-top: 2em;
+  margin-left: 11em;
 
 }
